@@ -4,7 +4,6 @@ import MealList from './MealList'
 import Meat from './Meat'
 import Stars from './Stars'
 import Tabs from './Tabs'
-import CommentBox from './CommentBox'
 
 const MealLayout = ({isLogged, userData, time }) =>  {
     return (
@@ -14,7 +13,6 @@ const MealLayout = ({isLogged, userData, time }) =>  {
         <Meat />
         <Stars />
         <Tabs />
-        <CommentBox />
       </div>
     )
 }

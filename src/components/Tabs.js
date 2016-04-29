@@ -3,12 +3,13 @@ import {Tabs, Tab} from 'material-ui/Tabs';
 import Comment from 'material-ui/svg-icons/communication/comment';
 import Stars from 'material-ui/svg-icons/action/stars';
 import Restaurant from 'material-ui/svg-icons/maps/restaurant';
-
+import CommentBox from './CommentBox'
 
 export default ({}) => {
   return (
     <Tabs>
     	<Tab icon={<Comment />} >
+        <CommentBox />
     	</Tab>
     	<Tab icon={<Restaurant />} >
     	</Tab>
