@@ -18,11 +18,6 @@ window.fbAsyncInit = function() {
 
 export default ({}) => {
   return (
-    <div
-      className="fb-like"
-      data-share="true"
-      data-width="450"
-      data-show-faces="true">
-    </div>
+    <div className="fb-comments" data-href="localhost:3000" data-numposts="50" data-order-by="reverse_time"></div>
   )
 }
